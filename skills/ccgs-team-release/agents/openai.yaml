@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Release"
+  short_description: "Claude Code Game Studios workflow: team-release"
+  default_prompt: "Use $ccgs-team-release to apply the migrated team-release workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

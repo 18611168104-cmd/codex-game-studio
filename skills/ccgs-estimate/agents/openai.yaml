@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Estimate"
+  short_description: "Claude Code Game Studios workflow: estimate"
+  default_prompt: "Use $ccgs-estimate to apply the migrated estimate workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

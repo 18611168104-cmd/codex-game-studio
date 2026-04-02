@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Architecture Decision"
+  short_description: "Claude Code Game Studios workflow: architecture-decision"
+  default_prompt: "Use $ccgs-architecture-decision to apply the migrated architecture-decision workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Launch Checklist"
+  short_description: "Claude Code Game Studios workflow: launch-checklist"
+  default_prompt: "Use $ccgs-launch-checklist to apply the migrated launch-checklist workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Prototype"
+  short_description: "Claude Code Game Studios workflow: prototype"
+  default_prompt: "Use $ccgs-prototype to apply the migrated prototype workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Narrative"
+  short_description: "Claude Code Game Studios workflow: team-narrative"
+  default_prompt: "Use $ccgs-team-narrative to apply the migrated team-narrative workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

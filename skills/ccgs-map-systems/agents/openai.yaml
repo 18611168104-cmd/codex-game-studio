@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Map Systems"
+  short_description: "Claude Code Game Studios workflow: map-systems"
+  default_prompt: "Use $ccgs-map-systems to apply the migrated map-systems workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

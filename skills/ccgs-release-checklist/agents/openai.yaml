@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Release Checklist"
+  short_description: "Claude Code Game Studios workflow: release-checklist"
+  default_prompt: "Use $ccgs-release-checklist to apply the migrated release-checklist workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

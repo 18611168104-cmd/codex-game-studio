@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Ui"
+  short_description: "Claude Code Game Studios workflow: team-ui"
+  default_prompt: "Use $ccgs-team-ui to apply the migrated team-ui workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

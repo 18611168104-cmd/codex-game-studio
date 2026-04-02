@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Patch Notes"
+  short_description: "Claude Code Game Studios workflow: patch-notes"
+  default_prompt: "Use $ccgs-patch-notes to apply the migrated patch-notes workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Polish"
+  short_description: "Claude Code Game Studios workflow: team-polish"
+  default_prompt: "Use $ccgs-team-polish to apply the migrated team-polish workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

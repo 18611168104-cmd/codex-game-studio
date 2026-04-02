@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Retrospective"
+  short_description: "Claude Code Game Studios workflow: retrospective"
+  default_prompt: "Use $ccgs-retrospective to apply the migrated retrospective workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

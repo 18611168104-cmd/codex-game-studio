@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Asset Audit"
+  short_description: "Claude Code Game Studios workflow: asset-audit"
+  default_prompt: "Use $ccgs-asset-audit to apply the migrated asset-audit workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

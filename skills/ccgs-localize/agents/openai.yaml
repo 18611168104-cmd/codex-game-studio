@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Localize"
+  short_description: "Claude Code Game Studios workflow: localize"
+  default_prompt: "Use $ccgs-localize to apply the migrated localize workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

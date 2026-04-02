@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Design Review"
+  short_description: "Claude Code Game Studios workflow: design-review"
+  default_prompt: "Use $ccgs-design-review to apply the migrated design-review workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

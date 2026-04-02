@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Perf Profile"
+  short_description: "Claude Code Game Studios workflow: perf-profile"
+  default_prompt: "Use $ccgs-perf-profile to apply the migrated perf-profile workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Audio"
+  short_description: "Claude Code Game Studios workflow: team-audio"
+  default_prompt: "Use $ccgs-team-audio to apply the migrated team-audio workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

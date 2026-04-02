@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Bug Report"
+  short_description: "Claude Code Game Studios workflow: bug-report"
+  default_prompt: "Use $ccgs-bug-report to apply the migrated bug-report workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

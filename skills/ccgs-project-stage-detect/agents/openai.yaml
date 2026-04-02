@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Project Stage Detect"
+  short_description: "Claude Code Game Studios workflow: project-stage-detect"
+  default_prompt: "Use $ccgs-project-stage-detect to apply the migrated project-stage-detect workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Reverse Document"
+  short_description: "Claude Code Game Studios workflow: reverse-document"
+  default_prompt: "Use $ccgs-reverse-document to apply the migrated reverse-document workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

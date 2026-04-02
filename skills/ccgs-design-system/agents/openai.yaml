@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Design System"
+  short_description: "Claude Code Game Studios workflow: design-system"
+  default_prompt: "Use $ccgs-design-system to apply the migrated design-system workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

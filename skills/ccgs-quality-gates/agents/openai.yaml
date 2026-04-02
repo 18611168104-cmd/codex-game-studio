@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Quality Gates"
+  short_description: "Manual Codex equivalent of imported CCGS hooks and rules"
+  default_prompt: "Use $ccgs-quality-gates to apply the migrated Claude Code Game Studios coordination and quality model in this workspace."
+
+policy:
+  allow_implicit_invocation: false

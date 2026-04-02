@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Brainstorm"
+  short_description: "Claude Code Game Studios workflow: brainstorm"
+  default_prompt: "Use $ccgs-brainstorm to apply the migrated brainstorm workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

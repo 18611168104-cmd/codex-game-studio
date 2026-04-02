@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Balance Check"
+  short_description: "Claude Code Game Studios workflow: balance-check"
+  default_prompt: "Use $ccgs-balance-check to apply the migrated balance-check workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

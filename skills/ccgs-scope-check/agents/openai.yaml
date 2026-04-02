@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Scope Check"
+  short_description: "Claude Code Game Studios workflow: scope-check"
+  default_prompt: "Use $ccgs-scope-check to apply the migrated scope-check workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

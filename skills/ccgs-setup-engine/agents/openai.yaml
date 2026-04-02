@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Setup Engine"
+  short_description: "Claude Code Game Studios workflow: setup-engine"
+  default_prompt: "Use $ccgs-setup-engine to apply the migrated setup-engine workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

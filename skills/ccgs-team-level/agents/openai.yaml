@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Level"
+  short_description: "Claude Code Game Studios workflow: team-level"
+  default_prompt: "Use $ccgs-team-level to apply the migrated team-level workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

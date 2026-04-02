@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Playtest Report"
+  short_description: "Claude Code Game Studios workflow: playtest-report"
+  default_prompt: "Use $ccgs-playtest-report to apply the migrated playtest-report workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

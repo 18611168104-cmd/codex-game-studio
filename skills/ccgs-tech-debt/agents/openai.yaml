@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Tech Debt"
+  short_description: "Claude Code Game Studios workflow: tech-debt"
+  default_prompt: "Use $ccgs-tech-debt to apply the migrated tech-debt workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

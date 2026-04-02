@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Onboard"
+  short_description: "Claude Code Game Studios workflow: onboard"
+  default_prompt: "Use $ccgs-onboard to apply the migrated onboard workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

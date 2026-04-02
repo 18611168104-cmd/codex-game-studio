@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Team Combat"
+  short_description: "Claude Code Game Studios workflow: team-combat"
+  default_prompt: "Use $ccgs-team-combat to apply the migrated team-combat workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

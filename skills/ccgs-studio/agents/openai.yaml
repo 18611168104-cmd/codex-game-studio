@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Studio"
+  short_description: "Imported Claude Code Game Studios pack for Codex"
+  default_prompt: "Use $ccgs-studio to browse the migrated Claude Code Game Studios workflows, references, and Codex adaptation notes."
+
+policy:
+  allow_implicit_invocation: false

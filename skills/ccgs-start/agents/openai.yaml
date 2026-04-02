@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Start"
+  short_description: "Claude Code Game Studios workflow: start"
+  default_prompt: "Use $ccgs-start to apply the migrated start workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

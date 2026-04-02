@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Changelog"
+  short_description: "Claude Code Game Studios workflow: changelog"
+  default_prompt: "Use $ccgs-changelog to apply the migrated changelog workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

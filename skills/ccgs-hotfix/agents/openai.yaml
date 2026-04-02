@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Hotfix"
+  short_description: "Claude Code Game Studios workflow: hotfix"
+  default_prompt: "Use $ccgs-hotfix to apply the migrated hotfix workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

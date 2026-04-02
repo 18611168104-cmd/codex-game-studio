@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCGS Milestone Review"
+  short_description: "Claude Code Game Studios workflow: milestone-review"
+  default_prompt: "Use $ccgs-milestone-review to apply the migrated milestone-review workflow from Claude Code Game Studios in this workspace."
+
+policy:
+  allow_implicit_invocation: false

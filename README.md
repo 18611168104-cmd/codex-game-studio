@@ -2,13 +2,14 @@
 
 Codex adaptation of the original `Claude-Code-Game-Studios` template.
 
-This repo packages the migrated `ccgs-*` skill set that was adapted for Codex and verified on Windows.
+This repo packages the migrated `ccgs-*` skill set that was adapted for Codex and verified on Windows, plus a Windows cleanup utility skill.
 
 ## Included
 
 - `40` Codex skills with the `ccgs-` prefix
+- `1` Windows utility skill: `windows-c-drive-cleanup`
 - shared `ccgs-studio` reference pack
-- `install.ps1` to install the skills into the local Codex skill locations
+- `install.ps1` to install all packaged skills into the local Codex skill locations
 
 ## Upstream Attribution
 
@@ -22,6 +23,8 @@ The original project is licensed under MIT. See `LICENSE` and `NOTICE.md`.
 
 - `skills/ccgs-*`
   - migrated Codex skills
+- `skills/windows-c-drive-cleanup`
+  - Windows C drive cleanup skill with a reusable PowerShell script
 - `skills/ccgs-studio/references/repo`
   - imported upstream reference pack used by the migrated skills
 - `install.ps1`
@@ -37,7 +40,7 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1
 
 This installer does two things:
 
-1. Copies all `ccgs-*` skills into:
+1. Copies all packaged skills into:
    - `%USERPROFILE%\.codex\skills`
 2. Creates Junction links for native Codex discovery in:
    - `%USERPROFILE%\.agents\skills`
@@ -54,8 +57,9 @@ powershell -ExecutionPolicy Bypass -File .\install.ps1 -Force
 
 This pack was verified with:
 
-- `40/40` migrated `ccgs-*` skill directories passing frontmatter validation
-- a fresh `codex.cmd exec` process discovering all `40` skills
+- `41/41` packaged skill directories passing frontmatter validation
+- the new `windows-c-drive-cleanup` script producing valid preview output on Windows
+- an existing `codex.cmd exec` validation pass for representative discovery and execution in this pack
 - representative workflow execution succeeding for `ccgs-project-stage-detect`
 
 ## Key Skills
@@ -65,9 +69,10 @@ This pack was verified with:
 - `ccgs-project-stage-detect`
 - `ccgs-agent-orchestration`
 - `ccgs-quality-gates`
+- `windows-c-drive-cleanup`
 
 ## Notes
 
-- This repo packages only the migrated Codex-facing `ccgs-*` skills.
+- This repo mainly packages the migrated Codex-facing `ccgs-*` skills plus one Windows utility skill.
 - It does not bundle unrelated local personal skills from the original machine.
 - Some workflows assume a normal Codex environment with standard built-in tools available.

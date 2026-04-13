@@ -1,0 +1,4 @@
+interface:
+  display_name: "Windows C-Drive Cleanup"
+  short_description: "Clean Windows C drive space safely"
+  default_prompt: "Use $windows-c-drive-cleanup when the user wants a safe Windows C drive cleanup that inventories and optionally deletes temporary files, selected caches, recycle bin contents, and old Downloads files."

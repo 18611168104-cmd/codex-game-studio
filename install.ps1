@@ -18,10 +18,10 @@ if (-not (Test-Path $sourceRoot)) {
 New-Item -ItemType Directory -Force -Path $codexSkillsRoot | Out-Null
 New-Item -ItemType Directory -Force -Path $agentsSkillsRoot | Out-Null
 
-$skills = Get-ChildItem $sourceRoot -Directory | Where-Object { $_.Name -like "ccgs-*" } | Sort-Object Name
+$skills = Get-ChildItem $sourceRoot -Directory | Sort-Object Name
 
 if (-not $skills) {
-    throw "No ccgs-* skills found under: $sourceRoot"
+    throw "No skill directories found under: $sourceRoot"
 }
 
 foreach ($skill in $skills) {
@@ -45,7 +45,8 @@ foreach ($skill in $skills) {
 
         $linkItem = Get-Item -LiteralPath $link -Force
         if ($linkItem.Attributes -band [IO.FileAttributes]::ReparsePoint) {
-            Remove-Item -LiteralPath $link -Force
+            # Remove-Item -Force throws on non-empty directory junctions in this environment.
+            [System.IO.Directory]::Delete($link)
         } else {
             Remove-Item -LiteralPath $link -Recurse -Force
         }
